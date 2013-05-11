@@ -1,9 +1,33 @@
-# Object files
+# autotools
+*.in
+*.la
+*.lo
 *.o
-
-# Libraries
-*.lib
 *.a
+.deps
+.libs
+Makefile.in
+aclocal.m4
+autom4te.cache
+compile
+config.guess
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+m4/libtool.m4
+m4/lt*.m4
+missing
+*.log
+stamp-h1
+*.tar.gz
+*.conf
+INSTALL
+*-test
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -15,3 +39,15 @@
 *.exe
 *.out
 *.app
+
+# qtcreator
+
+libutils.config
+libutils.creator
+libutils.creator.user
+libutils.files
+libutils.includes
+
+# emacs
+*~
+*.autosave
